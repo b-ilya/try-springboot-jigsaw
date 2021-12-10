@@ -1,5 +1,7 @@
 package dev.vinca.springbootjigsaw.learn.animals.bird;
 
-public interface BirdRepository {
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+public interface BirdRepository extends MongoRepository<Bird, String> {
     
 }
