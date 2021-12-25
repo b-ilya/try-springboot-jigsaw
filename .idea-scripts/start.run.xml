@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="springboot-jigsaw [clean,install]" type="MavenRunConfiguration" factoryName="Maven">
+  <configuration default="false" name="start" type="MavenRunConfiguration" factoryName="Maven">
     <MavenSettings>
       <option name="myGeneralSettings" />
       <option name="myRunnerSettings" />
@@ -10,11 +10,12 @@
           </option>
           <option name="goals">
             <list>
-              <option value="clean" />
-              <option value="install" />
+              <option value="spring-boot:run" />
+              <option value="-pl" />
+              <option value="application" />
             </list>
           </option>
-          <option name="pomFileName" value="pom.xml" />
+          <option name="pomFileName" />
           <option name="profilesMap">
             <map />
           </option>
